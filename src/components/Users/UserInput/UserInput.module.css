@@ -1,0 +1,17 @@
+.new-user__inputs {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    text-align: left;
+}
+
+.new-user__input label {
+    display: block;
+}
+
+.new-user__input input {
+    width: 100%;
+    max-width: 100%;
+    margin: 0.5em 0;
+}

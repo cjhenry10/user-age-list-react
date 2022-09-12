@@ -1,0 +1,17 @@
+.button {
+    background: purple;
+    color: white;
+    padding: 0.5em 1em;
+    border: none;
+    margin: 1em 0;
+    font-family: inherit;
+}
+
+.button:hover {
+    background: #520152;
+}
+
+.button:active {
+    box-shadow: 0 1px 4px rgba(0,0,0,0.3);
+    transform: translate(0.5px, 0.5px);
+}
